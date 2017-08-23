@@ -53,6 +53,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# configuration
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 # spree for rails 5.1
 gem 'spree', '~> 3.3.0'
 gem 'spree_auth_devise', '~> 3.3'
